@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" fill="none">
+  <defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse" patternTransform="matrix(1 .26 -1 .26 260 65)"><path d="M32 0H0V32" stroke="#c7ddd1" stroke-width="1"/></pattern><linearGradient id="side" x1="155" y1="103" x2="324" y2="211" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#e6efeb"/></linearGradient><linearGradient id="front" x1="323" y1="119" x2="420" y2="214" gradientUnits="userSpaceOnUse"><stop stop-color="#d7e8df"/><stop offset="1" stop-color="#afc8ba"/></linearGradient></defs>
+  <rect x="0" y="0" width="560" height="300" fill="url(#grid)" opacity=".42"/>
+  <path d="M-20 214 124 255 250 222 385 258 581 205" stroke="#b8d3c6" stroke-width="26" stroke-linejoin="round"/>
+  <path d="M-20 214 124 255 250 222 385 258 581 205" stroke="#f3faf6" stroke-width="2" stroke-dasharray="8 9"/>
+  <path d="M41 149 110 131 161 145M437 123l73-19 40 10" stroke="#7db59a" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <circle cx="41" cy="149" r="5" fill="#eaf5ee" stroke="#53a386" stroke-width="1.5"/>
+  <circle cx="510" cy="104" r="5" fill="#eaf5ee" stroke="#53a386" stroke-width="1.5"/>
+  <path d="m41 149 0-36m469-9V73" stroke="#91baa5" stroke-width="1"/>
+  <rect x="20" y="93" width="55" height="21" rx="5" fill="#fff" fill-opacity=".85" stroke="#d7e6dd"/><text x="47.5" y="107" font-family="Arial,sans-serif" font-size="8" fill="#557c67" text-anchor="middle">DEPOT A</text>
+  <rect x="479" y="52" width="57" height="21" rx="5" fill="#fff" fill-opacity=".85" stroke="#d7e6dd"/><text x="507.5" y="66" font-family="Arial,sans-serif" font-size="8" fill="#557c67" text-anchor="middle">ROUTE B</text>
+  <ellipse cx="287" cy="217" rx="149" ry="29" fill="#94b4a0" fill-opacity=".16"/>
+  <path d="m145 197 174-45 100 39-175 47z" fill="#859e90" fill-opacity=".28"/>
+  <ellipse cx="193" cy="216" rx="15" ry="21" transform="rotate(-13 193 216)" fill="#1c3540"/><ellipse cx="195" cy="215" rx="7" ry="12" transform="rotate(-13 195 215)" fill="#708c83"/><ellipse cx="365" cy="204" rx="15" ry="21" transform="rotate(-13 365 204)" fill="#1c3540"/><ellipse cx="367" cy="203" rx="7" ry="12" transform="rotate(-13 367 203)" fill="#708c83"/>
+  <path d="m147 101 170-44 87 37-172 45z" fill="#fbfefd" stroke="#bacfc2" stroke-width="1.3"/>
+  <path d="m147 101 85 38v91l-85-36z" fill="#d5e4dc" stroke="#b2cabb" stroke-width="1.3"/>
+  <path d="m232 139 172-45v93l-172 43z" fill="url(#side)" stroke="#b4cebe" stroke-width="1.3"/>
+  <path d="m315 117 89-23 25 35v66l-67 18-47-20z" fill="url(#front)" stroke="#a7c4b2" stroke-width="1.3"/>
+  <path d="m315 117 37 17 77-5-25-35z" fill="#eaf2ed" stroke="#b4cebe"/>
+  <path d="m352 134 65-17 9 14v34l-64 17-10-6z" fill="#173a43" stroke="#97b5a4"/>
+  <path d="m361 137 43-11 11 7-54 14z" fill="#407064"/>
+  <path d="m315 124 30 14v36l-30-14z" fill="#2a4c51"/>
+  <path d="m364 184 62-16v13l-62 16z" fill="#99b6a6"/>
+  <path d="m368 185 17-4v4l-17 4zm39-10 15-4v4l-15 4z" fill="#f7ffe5"/>
+  <path d="m365 204 64-17v8l-64 18z" fill="#688879"/>
+  <path d="m232 219 80-20v8l-80 21z" fill="#a5bfaf"/>
+  <path d="m246 145 56-14v64l-56 15z" stroke="#bdcfc5"/>
+  <path d="m281 151 0 40" stroke="#cbd9d1"/>
+  <path d="m283 171 7-2" stroke="#789e88" stroke-width="2"/>
+  <text x="249" y="173" fill="#397c61" font-family="Arial,sans-serif" font-size="10" font-weight="700" transform="rotate(-14 249 173)">NEOLIX</text>
+  <path d="m156 117 66 28v49l-66-28z" stroke="#adc6b7"/>
+  <path d="m164 164 49 21" stroke="#bccfc2" stroke-width="2"/>
+  <ellipse cx="337" cy="89" rx="17" ry="7" fill="#789a88"/><path d="M321 81v8c0 4 32 4 32 0v-8" fill="#294d48"/><ellipse cx="337" cy="81" rx="16" ry="6" fill="#5e8c78"/><ellipse cx="337" cy="80" rx="8" ry="3" fill="#9fc7ad"/>
+  <path d="M337 59V43" stroke="#5c9c7a" stroke-dasharray="3 3"/><circle cx="337" cy="38" r="3" fill="#53a27e"/>
+  <ellipse cx="337" cy="89" rx="39" ry="15" stroke="#67ad8a" stroke-opacity=".5" stroke-dasharray="3 5"/>
+  <ellipse cx="337" cy="89" rx="58" ry="22" stroke="#67ad8a" stroke-opacity=".25" stroke-dasharray="3 6"/>
+  <path d="M444 208h63m-13-8 13 8-13 8" stroke="#4a9475" stroke-width="1.5"/>
+  <text x="467" y="231" font-family="Arial,sans-serif" font-size="7" fill="#6f9782">SAFE TO SCALE</text>
+  <text x="24" y="280" font-family="Arial,sans-serif" font-size="7" fill="#9bb7a6" letter-spacing="1.5">SYSTEM ILLUSTRATION / NOT A PRODUCT SPECIFICATION</text>
+</svg>
