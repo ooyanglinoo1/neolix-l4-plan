@@ -92,17 +92,19 @@ git diff --check
 
 ## 本次验收记录
 
+历史验收截图保留在本地 `docs/` 目录，未上传至公开仓库；不影响网页运行。在线效果可直接通过上方Pages链接查看。
+
 - V1.3已验证：硬件内容位于TCO章节内的标注预算之后、整车账之前；独立目录项已移除，八个章节编号连续，行业与方法仍在最后。
 - 合并后的整车年化费用已人工复算及浏览器核验：客户账21,600 → 18,240元，自营账18,000 → 15,200元；总费用及智驾归属占比不变。仅将演示域控报价改为10,000元时，客户账方案整车年化费用17,280元，总费用46,460元。
 - 各行修改位置链接已验证，可展开折叠来源并跳转；键盘Enter可用。桌面1280px、手机390px及320px无页面横向溢出，浏览器无错误或警告。
-- V1.3预览：[合并费用与修改位置](docs/preview-merged-tco-desktop.jpg)、[硬件位于预算下方](docs/preview-hardware-under-budget.jpg)、[手机](docs/preview-merged-tco-mobile.jpg)。
+- V1.3预览：合并费用与修改位置（本地 `docs/preview-merged-tco-desktop.jpg`）、硬件位于预算下方（本地 `docs/preview-hardware-under-budget.jpg`）、手机（本地 `docs/preview-merged-tco-mobile.jpg`）。
 - JavaScript语法、页内锚点、唯一ID、八章节顺序与七类角色检查通过；未新增或修改测试代码。
 - 人工复算与浏览器联动结果一致：两本账默认费用、MPCI改变人车比、保费回填、标注分摊、硬件报价与功耗回填、竞品敏感性均已核验。
 - 异常流程已验证：缺国产报价、缺DCT精确价格、零产出和无效人车比均不显示误导结果；客户账与研发内部账按边界处理。切换账本清空竞品输入，全局重置正常。
 - 桌面1280px、手机390px及320px无页面横向溢出；宽表在容器内横向滚动。键盘可访问控件，浏览器无错误或警告日志。
 - 双列参数独立输入已验证：仅将方案月成本改为12,000元、排班系数改为2，现状总费用仍为58,140元，方案协助行变为7,600元、总费用变为51,620元；重置恢复默认。320px两列无输入框重叠。
-- 双列预览：[桌面](docs/preview-staffing-columns-desktop.jpg)、[手机](docs/preview-staffing-columns-mobile.jpg)。
-- V1.2预览：[联动整车账桌面](docs/preview-linked-tco-desktop.jpg)、[手机](docs/preview-linked-tco-mobile.jpg)、[国产硬件联动](docs/preview-linked-hardware.jpg)。
+- 双列预览：桌面（本地 `docs/preview-staffing-columns-desktop.jpg`）、手机（本地 `docs/preview-staffing-columns-mobile.jpg`）。
+- V1.2预览：联动整车账桌面（本地 `docs/preview-linked-tco-desktop.jpg`）、手机（本地 `docs/preview-linked-tco-mobile.jpg`）、国产硬件联动（本地 `docs/preview-linked-hardware.jpg`）。
 - 本地HTTP访问已验证；项目子路径在初版已验证，本版保持全部相对资源路径及无外部运行依赖。
 - 未实测边界：浏览器验收工具禁止 `file://`，直接打开只核查实现兼容性；系统打印预览无法通过工具核验，实际PDF分页未确认。打印样式及展开逻辑保留。
 
